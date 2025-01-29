@@ -337,7 +337,7 @@ export default function Header() {
   </div>
   <div
   id="dropdownTop"
-  className={`z-10 ${isOpen ? 'block' : 'hidden'} bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 menuDRop`}
+  className={`z-10 ${isOpen ? 'block' : 'hidden'} bg-white divide-y shadow divide-gray-100 rounded-lg   w-44 dark:bg-gray-700 menuDRop`}
 >
   <ul
     className="py-2 text-sm text-gray-700 dark:text-gray-200"
