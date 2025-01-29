@@ -17,9 +17,9 @@ export default function SearchBar() {
               <form className="max-w-sm mx-auto">
                 <label
                   htmlFor="countries"
-                  className=" mb-2 text-sm font-medium flex items-center gap-1 text-gray-900 dark:text-white"
+                  className=" mb-2 text-sm font-medium flex items-center gap-1 text-blue-900 dark:text-white"
                 ><svg
-                  className="w-5 h-5 text-gray-800 dark:text-white"
+                  className="w-5 h-5 text-blue-900  "
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width={15}
@@ -57,9 +57,9 @@ export default function SearchBar() {
               <form className="max-w-sm mx-auto  ">
                 <label
                   htmlFor="countries"
-                  className="flex items-center gap-1 mb-2 text-sm font-medium text-gray-900  "
+                  className="flex items-center gap-1 mb-2 text-sm font-medium text-blue-900  "
                 ><svg
-                  className="w-5 h-5 text-gray-800 dark:text-white"
+                  className="w-5 h-5 text-blue-900 dark:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
@@ -101,9 +101,9 @@ export default function SearchBar() {
               <form className="max-w-sm mx-auto">
                 <label
                   htmlFor="countries"
-                  className="flex items-center gap-1 mb-2 text-sm font-medium text-gray-900  "
+                  className="flex items-center gap-1 mb-2 text-sm font-medium text-blue-900 "
                 ><svg
-                  className="w-5 h-5 text-gray-800 dark:text-white"
+                  className="w-5 h-5 text-blue-900 dark:text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}

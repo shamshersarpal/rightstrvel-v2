@@ -39,7 +39,7 @@ export default function TourSlider() {
     <div className="container lg:py-20 pt-0 px-4">
       <div className="max-w-screen-xl mx-auto">
         <div className="pb-10">
-          <h2 className="lg:text-4xl text-3xl font-bold">Popular Destinations</h2>
+          <h2 className="lg:text-4xl text-3xl font-bold text-blue-900">Popular Destinations</h2>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {slides.map((slide, index) => (
