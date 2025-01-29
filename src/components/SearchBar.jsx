@@ -7,7 +7,7 @@ export default function SearchBar() {
   return (
     <>
     <div className="mx-4">
-    <section className="py-2 bg-white   mx-auto rounded-lg shadow-lg max-w-[955px] mt-2">
+    <section className="py-2 bg-white   mx-auto rounded-lg shadow-lg max-w-[955px] mt-2 mobSearch">
         <div className="container mx-auto px-3 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 p-3 lg:p-0 ">
             {/* Column 1 */}
