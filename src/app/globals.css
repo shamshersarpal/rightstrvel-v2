@@ -94,3 +94,10 @@ video {
 select{
   -webkit-appearance: none;
 }
+
+.menuDRop{
+  bottom: 65px;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+}
