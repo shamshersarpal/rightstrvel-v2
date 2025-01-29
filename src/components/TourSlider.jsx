@@ -1,10 +1,3 @@
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import TourOne from "@/images/c1.jpg";
 import TourTwo from "@/images/c2.jpg";
 import TourThree from "@/images/c3.jpg";
@@ -39,51 +32,28 @@ export default function TourSlider() {
       rating: 4.6,
       score: "4.6",
     },
-    {
-      title: "America tours",
-      imageSrc: TourFive,
-      rating: 4.5,
-      score: "4.5",
-    },
+    
   ];
 
   return (
-    <>
-      <div className="container py-20 px-4">
-        <div className="max-w-screen-xl   mx-auto">
-          <div className="flex flex-wrap items-center justify-between">
-            
-          </div>
-          <Carousel
-            className="max-w-screen-xl mx-auto "
-            opts={{
-              align: "start",
-            }}
-          ><div className="pb-10">
-              <h2 className="text-4xl font-bold">Popular Destinations</h2>
+    <div className="container lg:py-20 pt-0 px-4">
+      <div className="max-w-screen-xl mx-auto">
+        <div className="pb-10">
+          <h2 className="lg:text-4xl text-3xl font-bold">Popular Destinations</h2>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {slides.map((slide, index) => (
+            <div key={index}>
+              <TourBox
+                title={slide.title}
+                imageSrc={slide.imageSrc}
+                rating={slide.rating}
+                score={slide.score}
+              />
             </div>
-            <CarouselContent>
-              {slides.map((slide, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
-                  <div>
-                    <TourBox
-                      title={slide.title}
-                      imageSrc={slide.imageSrc}
-                      rating={slide.rating}
-                      score={slide.score}
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <div className="hidden xl:block md:block">
-            <CarouselPrevious  />
-            <CarouselNext />
-            </div>
-            
-          </Carousel>
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }

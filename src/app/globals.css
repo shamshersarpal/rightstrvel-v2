@@ -84,3 +84,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   width: 71px;
   border-radius: 5px;
 }
+
+video { 
+  min-width: 100%;
+  min-height: 100%; 
+   
+}

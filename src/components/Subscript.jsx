@@ -4,7 +4,7 @@ export default function Subscript() {
             <section className="bg-white dark:bg-gray-900">
                 <div className="py-8 pt-2 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
                      
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    <h1 className="my-4 lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl   dark:text-white">
                     Sign up for weekly deals  
                     </h1>
                     <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
