@@ -3,9 +3,9 @@ import aboutImg from '../images/about.jpg';
 
 export default function InfoSection() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-blue-50">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-    <h1 className="mb-4 lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl   dark:text-white">
+    <h1 className="mb-4 lg:text-6xl text-3xl font-bold lg:font-bold tracking-tight leading-none  md:text-5xl text-blue-900">
     Discover Amazing
     Places With Us
     </h1>
