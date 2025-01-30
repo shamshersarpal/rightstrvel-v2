@@ -2,7 +2,7 @@ export default function Subscript() {
     return (
         <>
             <section className="bg-white dark:bg-gray-900">
-                <div className="py-8 pt-2 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+                <div className="py-8 pt-2 px-4 mx-auto max-w-screen-xl text-center lg:py-16 relative">
                      
                     <h1 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl xl:text-5xl">
                     Sign up for weekly deals  
