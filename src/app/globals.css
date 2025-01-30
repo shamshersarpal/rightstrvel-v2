@@ -28,6 +28,12 @@ main {
   background-position: center;
   background-size: cover;
 }
+
+.signup{
+  background-image: url("../images/hero2.jpg");
+  background-position: center;
+  background-size: cover;
+}
 @layer base {
   :root { 
     --radius: 0.5rem;

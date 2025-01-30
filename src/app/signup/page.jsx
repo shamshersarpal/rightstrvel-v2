@@ -22,7 +22,7 @@ export default function SignUp() {
         <>
             
             <main className="py-0 lg:m-0 mt-30">
-                <section className="bg-blue-300  relative">
+                <section className="signup relative">
 
                     <div className="container">
                         <div className="relative">
