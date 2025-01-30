@@ -7,7 +7,7 @@ export default function HeroSection() {
 
     <>
     
-    <div className="relative w-full heroSection">
+    <div className="relative w-full heroSection mt-10 lg:mt-0">
     <div className="absolute inset-0 bg-blue-950 opacity-70"></div>
     <div className="relative z-10">
     <Header/>

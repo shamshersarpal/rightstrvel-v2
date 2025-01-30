@@ -12,7 +12,7 @@ const Testimonials = ({ heading, reviews, carouselOptions }) => {
         <section className="pt-20 pb-0 px-4 ">
             <div className="container   px-4">
                 <div className="pb-10 text-center">
-                    <h2 className="lg:text-4xl text-3xl font-bold text-blue-900">{heading}</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl xl:text-5xl">{heading}</h2>
                 </div>
                 <Carousel
                     className="max-w-screen-xl mx-auto"

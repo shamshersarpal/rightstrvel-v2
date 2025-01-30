@@ -12,7 +12,7 @@ export default function TourSlider() {
   return (
     <section className="bg-white py-20">
       <div className="  text-center  mb-5">
-  <h2 className="lg:text-4xl text-3xl font-bold text-blue-900">
+  <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl xl:text-5xl">
   Popular Destinations
   </h2>
 </div>

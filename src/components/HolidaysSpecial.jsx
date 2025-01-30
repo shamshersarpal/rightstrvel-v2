@@ -10,7 +10,7 @@ export default function HolidaysSpecials(){
         <section className="py-20 px-2 mx-auto max-w-screen-xl  ">
             <div className="container">
             <div className="  text-center  mb-5">
-  <h2 className="lg:text-4xl text-3xl font-bold text-blue-900">
+  <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl xl:text-5xl">
   Holidays Special
   </h2>
 </div>

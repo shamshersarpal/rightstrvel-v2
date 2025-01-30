@@ -24,9 +24,10 @@ export default function Home() {
     <HeroSection/>
     <TourSlider/>
     <VideoSection/>
+    <GroupPackege/>
     <HowitWorks/>
     <InfoSection/>
-     <GroupPackege/>
+    
     <Testimonials/>
     <Subscript/>
     <Footer/>

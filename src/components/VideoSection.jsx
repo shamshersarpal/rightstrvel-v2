@@ -11,7 +11,7 @@ export default function VideoSection(){
           <span className="rounded-full uppercase bg-blue-700 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
           Rights trvel
           </span>
-          <h1 className="mb-4 lg:text-6xl text-3xl font-bold lg:font-bold tracking-tight leading-none  md:text-5xl text-blue-900">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl xl:text-5xl">
             <span className="sm:text-6xl"></span> Who we are
           </h1>
         </div>
