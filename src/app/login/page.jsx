@@ -5,10 +5,13 @@ export default function LoginClient() {
     
     return (
         <>
-            <Header />
-            <main>
+        
+            <main className="py-0 lg:m-0 mt-30">
                 <section className="bg-gray-50 login-page relative">
                     <div className="absolute inset-0 bg-black opacity-60 "></div>
+                    <div className="relative">
+                    <Header />
+                    </div>
                     <div className="relative z-10 flex flex-col h-full items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                         <div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
                             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

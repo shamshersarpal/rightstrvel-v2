@@ -20,13 +20,16 @@ export default function SignUp() {
      
     return (
         <>
-            <Header />
-            <main>
-                <section className="bg-gray-400  relative">
+            
+            <main className="py-0 lg:m-0 mt-30">
+                <section className="bg-blue-300  relative">
 
                     <div className="container">
+                        <div className="relative">
+                                            <Header />
+                                            </div>
                         <div className="relative z-10 flex flex-col items-center justify-center px-6 py-8 mx-auto  pt-20 pb-10 ">
-                            <div className="w-full bg-white rounded-lg shadow  p-8">
+                            <div className="w-full bg-white rounded-lg shadow   ">
                                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                                     <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                                         Client SignUp
