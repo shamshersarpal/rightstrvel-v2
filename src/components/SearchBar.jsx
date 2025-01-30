@@ -7,11 +7,11 @@ export default function SearchBar() {
   return (
     <>
     <div className="mx-4">
-    <section className="py-2 bg-white   mx-auto rounded-lg shadow-lg max-w-[955px] mt-2 mobSearch">
+    <section className="py-2  search-bg  mx-auto rounded-lg shadow-lg max-w-[955px] mt-2 mobSearch">
         <div className="container mx-auto px-3 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 p-3 lg:p-0 ">
             {/* Column 1 */}
-            <div className="bg-white  ">
+            <div className="  ">
 
 
               <form className="max-w-sm mx-auto">
@@ -97,7 +97,7 @@ export default function SearchBar() {
               </form>
             </div>
             {/* Column 3 */}
-            <div className="bg-white  ">
+            <div className="  ">
               <form className="max-w-sm mx-auto">
                 <label
                   htmlFor="countries"
@@ -126,16 +126,16 @@ export default function SearchBar() {
               </form>
             </div>
             {/* Column 4 */}
-            <div className="bg-white  ">
+            <div className=" ">
               <form className="max-w-sm mx-auto">
                 <label
                   htmlFor="countries"
-                  className="block mb-2 text-sm font-medium text-white  "
+                  className="block mb-2 text-sm font-medium text-ss  "
                 > s
 
                 </label>
-                <button type="button" className="text-white justify-center bg-gradient-to-r w-full flex items-center gap-1 from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-                  <svg className="w-5 h-5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <button type="button" className="text-black justify-center   w-full flex items-center gap-1 bg-yellow-300  hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                  <svg className="w-5 h-5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />
                   </svg>
                   Search </button>
