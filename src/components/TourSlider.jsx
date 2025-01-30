@@ -28,7 +28,7 @@ export default function TourSlider() {
           <Image className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={TourOne} alt="" />
            
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-          <h3 className="  text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
+          <h3 className="text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
           Africa   
           </h3>
         </a>
@@ -40,7 +40,7 @@ export default function TourSlider() {
         >
          <Image className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={TourTwo} alt="" />
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-          <h3 className="  text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
+          <h3 className="text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
           Asia 
           </h3>
         </a>
@@ -51,7 +51,7 @@ export default function TourSlider() {
           >
             <Image className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={TourThree} alt="" />
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-            <h3 className="  text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
+            <h3 className="text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
             Europe   
           </h3>
           </a>
@@ -61,7 +61,7 @@ export default function TourSlider() {
           >
             <Image className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={TourFour} alt="" />
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-            <h3 className="  text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
+            <h3 className="text-2xl font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl  ">
             Middle East  
           </h3>
           </a>
@@ -74,7 +74,7 @@ export default function TourSlider() {
         >
           <Image className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={TourFive} alt="" />
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5" />
-          <h3 className="    font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl text-2xl">
+          <h3 className="font-medium text-blue-900 bg-gray-50 absolute top-0 left-0 p-2 xs:text-xl text-2xl">
           America  
           </h3>
         </a>
