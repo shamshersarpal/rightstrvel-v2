@@ -13,8 +13,10 @@ import Image from "next/image";
 import GroupPackages from "@/components/ui/GroupPackages";
 import HolidaysSpecial from "@/components/HolidaysSpecial";
 import GroupPackagesPage from "@/components/GroupPackagesPage";
+import HotelHolidays from "@/components/ui/HotelsandHolidays";
+import HowitWorks from "@/components/HowItWork";
 
-export default function Home() {
+export default function Home() {     
   return (
     <>
     
@@ -22,9 +24,9 @@ export default function Home() {
     <HeroSection/>
     <TourSlider/>
     <VideoSection/>
-     <HolidaysSpecial/>
+    <HowitWorks/>
     <InfoSection/>
-     <GroupPackagesPage/>
+     <GroupPackege/>
     <Testimonials/>
     <Subscript/>
     <Footer/>

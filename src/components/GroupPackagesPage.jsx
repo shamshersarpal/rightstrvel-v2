@@ -10,7 +10,7 @@ export default function GroupPackagesPage(){
         <>
        <section className="py-20 px-2 mx-auto max-w-screen-xl  ">
             <div className="container">
-            <div className="  text-center  mb-5">
+            <div className="   mb-5">
   <h2 className="lg:text-4xl text-3xl font-bold text-blue-900">
   Holidays Special
   </h2>
